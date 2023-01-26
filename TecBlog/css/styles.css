@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #c8c7c7 !important;
+  background: #ecebeb !important;
 }
 
 .upperContainer {
@@ -45,6 +45,29 @@ h1 {
 }
 
 .middleContainer {
-  background-color: white;
   width: 920px;
+  margin: 0 auto;
+}
+
+.content,
+.side-content {
+  background-color: white;
+}
+
+.content {
+    float: left;
+    width: 660px;
+}
+
+.side-content {
+    float: right;
+    width: 240px;
+}
+
+.footnote{
+    clear: both;
+    background-color: green;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
 }
