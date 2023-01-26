@@ -10,9 +10,7 @@
 }
 
 body {
-  background-color: #d0d0d0;
-  font-size: 14px;
-  line-height: 1.6;
+  background: #c8c7c7 !important;
 }
 
 .upperContainer {
@@ -44,4 +42,9 @@ h1 {
   color: rgb(253, 208, 6);
   background-color: white;
   text-decoration: none;
+}
+
+.middleContainer {
+  background-color: white;
+  width: 920px;
 }
