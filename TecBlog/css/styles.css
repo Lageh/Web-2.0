@@ -1,0 +1,47 @@
+/*Cleaning the standard formatting*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #d0d0d0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.upperContainer {
+  text-align: center;
+  background-color: rgb(253, 208, 6);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menuArea {
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tech {
+  color: rgb(255, 255, 255);
+}
+
+.blog {
+  font-weight: bold;
+}
+
+.menuArea:hover {
+  color: rgb(253, 208, 6);
+  background-color: white;
+  text-decoration: none;
+}
