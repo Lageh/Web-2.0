@@ -55,19 +55,19 @@ h1 {
 }
 
 .content {
-    float: left;
-    width: 660px;
+  float: left;
+  width: 660px;
 }
 
 .side-content {
-    float: right;
-    width: 240px;
+  float: right;
+  width: 240px;
 }
 
-.footnote{
-    clear: both;
-    background-color: green;
-    text-align: center;
-    background: #CCC;
-    padding: 15px;
+.footnote {
+  clear: both;
+  background-color: green;
+  text-align: center;
+  background: #ccc;
+  padding: 15px;
 }
