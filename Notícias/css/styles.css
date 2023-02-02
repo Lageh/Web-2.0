@@ -1,0 +1,137 @@
+/* Estrutura do Site
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #fff url("../imagens/fundo.png") repeat-x;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#topo {
+  height: 150px;
+  padding: 25px;
+  background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo {
+  width: 150px;
+  height: 66px;
+  background: url(../imagens/logo.png) no-repeat center;
+  text-indent: -5000px;
+}
+
+/* Barra de navegação
+*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#topo ul {
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#topo ul li {
+  float: left;
+}
+
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+  background: none;
+}
+
+#topo ul a:hover {
+  color: #69001d;
+  background: #ffd;
+}
+
+body.home #navegacao a#home,
+body.internacional #navegacao a#internacional,
+body.brasil #navegacao a#brasil,
+body.fotos #navegacao a#fotos,
+body.saude #navegacao a#saude,
+body.economia #navegacao a#economia,
+body.ciencia #navegacao a#ciencia {
+  background-color: #de003e;
+  color: #fff;
+  cursor: text;
+}
+
+/* Conteúdo */
+
+#conteudo {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+#lateral {
+  width: 180px;
+  background-color: blue;
+  float: left;
+  margin: 0 0 20px -750px;
+}
+#primario{
+    width: 270px;
+    background-color: green;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#tres-colunas #primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario {
+  width: 720px;
+  margin: 0 0 20px 0px;
+}
+
+#duas-colunas #primario {
+  width: 555px;
+  margin: 0 0 20px 195px;
+}
+
+#secundario {
+  width: 270px;
+  background-color: orange;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+/* Rodape */
+
+#container-rodape {
+  padding: 20px;
+  background: #294c71;
+}
+
+#rodape {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
