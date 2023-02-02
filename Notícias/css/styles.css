@@ -89,15 +89,13 @@ body.ciencia #navegacao a#ciencia {
 
 #lateral {
   width: 180px;
-  background-color: blue;
   float: left;
   margin: 0 0 20px -750px;
 }
-#primario{
-    width: 270px;
-    background-color: green;
-    float: left;
-    margin: 0 0 20px 195px;
+#primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
 }
 #tres-colunas #primario {
   width: 270px;
@@ -117,9 +115,86 @@ body.ciencia #navegacao a#ciencia {
 
 #secundario {
   width: 270px;
-  background-color: orange;
   float: left;
   margin: 0 0 20px 15px;
+}
+/* Caixas */
+
+.caixa {
+  margin: 10px 0;
+  padding: 5px 0 5px 0;
+  background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+#conteudo h2 {
+  background: #294c71;
+  padding-left: 5px;
+  font-size: 1.1em;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+.caixa-conteudo {
+  padding: 5px;
+  margin-top: 5px;
+  background: rgb(255, 255, 255);
+}
+
+/*Formatar imagens */
+
+.imagem-principal {
+  width: 98%;
+  border: 3px  solid #dfdfdf;
+}
+
+/* formatar conteudo */
+
+h3{
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.9em;
+  padding: 2px;
+  color: #fff;
+  background: #bf3333;
+}
+
+/* formatar menus laterais */
+
+#lateral ul a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+  padding-left: 20px;
+  background: #f9f9f9 url(../imagens/marcador.png) left no-repeat;
+  color: #a1a1a1;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  font-size: 0.8em;
+  padding: 5px;
+  width: 125px;
+  background-color: white;
+}
+
+input.submit {
+  font-size: 0.8em;
+  width: 85px;
+  color: white;
+  background-color: #b10333;
+  border: 2px solid #870529;
+  margin-top: 2px;
 }
 
 /* Rodape */
