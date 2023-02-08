@@ -20,6 +20,10 @@ a:hover {
   margin: 0 auto;
 }
 
+#logo h1 {
+  float: left;
+}
+
 #logo a {
   width: 248px;
   height: 21px;
@@ -53,3 +57,10 @@ nav ul li:hover {
   border-bottom: 1px solid #535858;
   background-color: rgba(255, 204, 0, 0.2);
 }
+
+#conteudo {
+  width: 710px;
+  float: left;
+  background: green;
+}
+
